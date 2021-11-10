@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    width: 1140px;
+  }
+  
+  .logo {
+    width: 0px;
+    margin: 0 auto;
+    float: left;
+      font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 20px;
+    line-height: 70px;
+  }
+  
+  nav {
+    position: sticky;
+    top: 0px;
+    height: 50px;
+    background-color: #3F2958;
+    color: #13DE39;
+    padding-bottom: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    float: right;
+  }
+  
+  nav li {
+    list-style: none;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: #13DE39;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 30px;
+    line-height: 40px;
+  }
+  
+  nav li a:hover {
+    background: blueviolet;
+  }
+  
+  .hero {
+    height: 600px;
+    background: url("images/UFO_Hero.png");
+    color: white;
+    padding: 40px;
+    padding-top: 25px;
+  }
+  
+  .parallax {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.93;
+  }
+  
+  .parallax {
+    background-image: url("images/UFO_Space.png");
+    min-height: 250px;
+    color: white;
+  }
+  
+  .ptext {
+    position: absolute;
+    top: 36%;
+    width: 100%;
+    text-align: center;
+    color: #13DE39;
+    font-size: 72px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+  }
+  
+  .ptext .border {
+    background: #111;
+    color: #13DE39;
+    padding: 30px;
+    font-family: 'Bebas Neue', cursive;
+  }
+  
+  .oldest {
+    height: 1000px;
+    background-color: #DFE3EB;
+    padding: 40px;
+  padding-top: 25px;
+  }
+  
+  .sightings {
+    height: 850px;
+    background-color: #DAD2E0;
+    padding: 40px;
+  padding-top: 25px;
+  }
+  
+  .area51 {
+    height: 1000px;
+    background-color: #DFE3EB;
+    padding: 40px;
+  padding-top: 25px;
+  }
+  
+  .roswell {
+    height: 800px;
+    background-color: #DAD2E0;
+    padding: 40px;
+  padding-top: 25px;
+  }
+  
+  .bigmenu {
+    height: 620px;
+    background-image: url("images/UFO_Space2.png");
+  }
+  
+  .modern {
+    height: 850px;
+    background-color: #DFE3EB;
+    padding: 40px;
+  padding-top: 25px;
+  }
+  
+  footer {
+    height: 280px;
+    background-color: #3F2958;
+    color: #13DE39;
+  }
