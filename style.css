@@ -15,7 +15,6 @@ body {
   }
   
   nav {
-    position: sticky;
     top: 0px;
     height: 80px;
     background-color: #3F2958;
@@ -99,34 +98,36 @@ body {
     padding: 30px;
     font-family: 'Bebas Neue', cursive;
   }
+
+  .heading {
+    text-align: center;
+  }
   
   .oldest {
     height: 1000px;
     background-color: #DFE3EB;
-    padding: 40px;
+    padding: 80px;
     padding-top: 20px;
   }
   
   .sightings {
-    height: 850px;
+    height: 1150px;
     background-color: #DAD2E0;
-    padding: 40px;
+    padding: 80px;
     padding-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
   }
   
   .area51 {
     height: 1000px;
     background-color: #DFE3EB;
-    padding: 40px;
+    padding: 80px;
     padding-top: 20px;
   }
   
   .roswell {
     height: 800px;
     background-color: #DAD2E0;
-    padding: 40px;
+    padding: 80px;
     padding-top: 20px;
   }
   
@@ -134,14 +135,14 @@ body {
     height: 620px;
     background-image: url("images/UFO_Space2.png");
     background-size: cover;
-    padding: 40px;
+    padding: 80px;
     padding-top: 20px;
   }
   
   .modern {
     height: 850px;
     background-color: #DFE3EB;
-    padding: 40px;
+    padding: 80px;
     padding-top: 20px;
   }
   
@@ -149,7 +150,7 @@ body {
     height: 280px;
     background-color: #3F2958;
     color: #13DE39;
-    padding: 40px;
+    padding: 80px;
     padding-top: 20px;
   }
 
