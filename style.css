@@ -166,3 +166,104 @@ body {
     text-transform: uppercase;
     line-height: 20%;
   }
+
+
+
+
+
+
+
+  .button {
+    background: #13DE39;
+    padding: 1em 2em;
+    color: #fff;
+    border: 0;
+    outline: none;
+    border-radius: 25px;
+}
+
+.button:hover {
+    background: #ccc;
+}
+
+/* modal will cover the browser*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left:0;
+    top:0;
+    height:100%;
+    width: 100%;
+    overflow:auto;
+    background:rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background: var(--content-bg); /*#f4f4f4;*/
+    margin: 20% auto;
+    width: 70%;
+    animation-name: modalopen;
+    animation-duration: 1s;
+}
+
+/*style of header and footer */
+.modal-header h2, .modal-footer h3 {
+    margin: 0;
+}
+.modal-header {
+    background: var(--primary-color);
+    padding: 15px;
+    color: var(--secondary-color);
+}
+
+.modal-body {
+    padding: 10px 20px;
+}
+
+.modal-image {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.modal-image img {
+  width: 100%;
+}
+
+.modal-footer {
+    background: var(--secondary-color);
+    padding: 15px;
+    text-align: center;
+}
+
+.footer-button {
+  background: var(--primary-color);
+  color: #fff;
+  outline: none;
+  padding: 15px;
+  border: none;
+  border-radius: 25px;
+}
+
+.footer-button:hover {
+  background: var(--content-bg);
+  color: var(--primary-color);
+}
+
+.closeBtn {
+    color: #ccc;
+    float: right;
+    font-size: 30px;
+}
+
+
+.closeBtn:hover, .closeBtn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@keyframes modalopen {
+    from{ opacity: 0;}
+    to { opacity: 1;}
+}
