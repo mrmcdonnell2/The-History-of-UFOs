@@ -137,6 +137,8 @@ body {
     background-size: cover;
     padding: 80px;
     padding-top: 20px;
+    text-align: center;
+    color: white;
   }
   
   .modern {
@@ -145,6 +147,8 @@ body {
     padding: 80px;
     padding-top: 20px;
   }
+
+  .modern 
   
   footer {
     height: 280px;
