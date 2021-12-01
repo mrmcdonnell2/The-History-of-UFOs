@@ -80,7 +80,7 @@ body {
     color: white;
   }
   
-  .para text {
+  .paratext {
     position: absolute;
     top: 36%;
     width: 100%;
@@ -92,7 +92,7 @@ body {
     font-family: 'Bebas Neue', cursive;
   }
   
-  .para text .border {
+  .paratext .border {
     background: #111;
     color: #14c234;
     padding: 30px;
