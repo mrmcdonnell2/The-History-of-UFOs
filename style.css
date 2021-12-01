@@ -148,8 +148,16 @@ body {
     padding-top: 20px;
   }
 
-  .modern 
+  .flex-section {
+    display: flex;
+    justify-content: center;
+  }
   
+  .area-paragraph {
+    width: 50%;
+    margin: 25px;
+  }
+
   footer {
     height: 280px;
     background-color: #3F2958;
