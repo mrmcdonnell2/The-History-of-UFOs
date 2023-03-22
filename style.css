@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 a:link {
   color:#14c234;
@@ -8,7 +9,7 @@ a:link {
 }
 
 body {
-  font-family: 'PT Serif', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -21,7 +22,7 @@ body {
     width: 0px;
     margin: 0 auto;
     float: left;
-      font-weight: bold;
+    font-weight: bold;
     text-transform: uppercase;
     padding: 0 20px;
     line-height: 70px;
@@ -39,9 +40,10 @@ body {
   
   .hero {
     height: 550px;
-    background: url("images/UFO_Hero.png");
+    background: url("images/HeroImagery.png");
     background-size: cover;
     color: white;
+    align-content: center;
     padding: 40px;
     padding-top: 20px;
   }
@@ -51,7 +53,7 @@ body {
     position: absolute;
     left: 620px;
     top: 360px;
-    background: rgba(255, 255, 255, 0.137);
+    background: rgba(20, 20, 20);
     padding: 10px 20px 10px 20px;
   }
   
@@ -61,14 +63,14 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    opacity: 0.93;
+    opacity: 0.9;
   }
   
   .parallax {
     background-image: url("images/UFO_Space.png");
     background-size: cover;
     min-height: 250px;
-    color: white;
+    color: #000000;
   }
   
   .paratext {
@@ -124,7 +126,6 @@ body {
     background-size: cover;
     padding: 80px;
     padding-top: 20px;
-    text-align: center;
     color: white;
   }
 
@@ -153,11 +154,13 @@ body {
   }
 
   footer {
-    height: 260px;
+    height: 60px;
     background-color: #3F2958;
     color:#14c234;
-  text-decoration: none;
-  font-size: 18px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
     padding: 80px;
     padding-top: 20px;
   }
@@ -180,16 +183,16 @@ body {
     text-transform: uppercase;
     text-align: center;
     line-height: 20%;
-    padding-bottom: 25px;
+    padding-top: 45px;
   }
 
   .heading {
     font-family: 'Courier New', Courier, monospace;
     color: #14c234;
-    font-size: 34px;
+    font-size: 36px;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
     line-height: 20%;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
   }
